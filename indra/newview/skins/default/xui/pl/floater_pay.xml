@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<floater name="Give Money">
+	<string name="payee_group">
+		Zapłać grupie
+	</string>
+	<string name="payee_resident">
+		Zapłać Rezydentowi
+	</string>
+	<button label="1[CUR]" label_selected="1[CUR]" name="fastpay 1"/>
+	<button label="5[CUR]" label_selected="5[CUR]" name="fastpay 5"/>
+	<button label="10[CUR]" label_selected="10[CUR]" name="fastpay 10"/>
+	<button label="20[CUR]" label_selected="20[CUR]" name="fastpay 20"/>
+	<text name="amount text">
+		lub wpisz kwotę:
+	</text>
+	<text name="payment_message_label">
+		Wiadomość (opcjonalna):
+	</text>
+	<button label="Zapłać" label_selected="Zapłać" name="pay btn"/>
+	<button label="Anuluj" label_selected="Anuluj" name="cancel btn"/>
+</floater>
